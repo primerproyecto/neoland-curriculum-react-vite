@@ -10,14 +10,34 @@ import { CV } from "./CV/CV";
 
 const { hero, education, experience, languages, habilities, volunteer } = CV;
 function App() {
-  const [count, setCount] = useState(0)
+  const [showEducation, setShowEducation] = useState(true);
 
   return (
     <div className="App">
         <Hero hero={hero} />
+        <hr />
         <About hero={hero} />
-        <Experience experience={experience} />
-        <Education education={education} />
+        <hr />
+        <button
+              className="custom-btn btn-4"
+              onClick={() => setShowEducation(true)}
+            >
+              Education
+            </button>
+            <button
+              className="custom-btn btn-4"
+              onClick={() => setShowEducation(false)}
+            >
+              Experience
+            </button>
+            <div>
+        {showEducation ? (
+          <Education education={education} />
+        ) : (
+          <Experience experience={experience} />
+        )}
+      </div>
+        <hr />
         <More
         languages={languages}
         habilities={habilities}

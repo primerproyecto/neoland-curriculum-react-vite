@@ -6,7 +6,7 @@ export const CV = {
       email: "tony@starkindustries.com",
       birthDate: "29/05/1970",
       phone: "(+12) 767333841 NO PONGAIS EL VUESTRO POR FAVOR",
-      image: "https://i.imgur.com/ZQAkED3.png",
+      image: "https://t3.ftcdn.net/jpg/02/22/85/16/360_F_222851624_jfoMGbJxwRi5AWGdPgXKSABMnzCQo9RN.jpg",
       gitHub: "https://github.com/tonystark",
       aboutMe: [
         {
