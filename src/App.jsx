@@ -5,7 +5,7 @@ import Hero from "./components/Hero/index.jsx"
 import Education from "./components/Education/index.jsx"
 import More from "./components/More/index.jsx"
 import Experience from "./components/Experience/index.jsx"
-import { CV } from "./CV/CV";
+import { CV } from "./CV/Cv";
 
 
 const { hero, education, experience, languages, habilities, volunteer } = CV;
